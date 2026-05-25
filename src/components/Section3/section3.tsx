@@ -39,13 +39,13 @@ const Section3:React.FC= ()=> {
               </a>
             </div>
           </div>
-          <div className="relative mt-16 h-80 lg:mt-8">
+          <div className="relative mt-8 sm:mt-12 md:mt-16 h-48 sm:h-60 md:h-80 lg:mt-8">
             <img
               alt="App screenshot"
               src="https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png"
               width={1824}
               height={1080}
-              className="absolute top-0 left-0 w-228 max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
+              className="absolute top-0 left-0 w-full sm:w-228 max-w-none rounded-md bg-white/5 ring-1 ring-white/10"
             />
           </div>
         </div>

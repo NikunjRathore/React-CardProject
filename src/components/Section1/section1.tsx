@@ -4,7 +4,7 @@ import Pagecontent from './pagecontent.tsx'
 
 const Section1:React.FC=()=> {
   return (
-    <div className='h-screen w-full bg-amber-400'>
+    <div className='min-h-screen w-full bg-amber-400 flex flex-col'>
       <Navbar></Navbar>
       <Pagecontent />
     </div>
