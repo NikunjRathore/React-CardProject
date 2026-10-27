@@ -5,7 +5,7 @@ import Section3 from './components/Section3/section3.tsx'
 
 const App: React.FC = () => {
   return (
-    <div>
+    <div className='flex'>
       <Section1 />
       <Section2 />
       <Section3 />
